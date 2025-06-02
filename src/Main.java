@@ -1,21 +1,20 @@
 public class Main {
     public static void main(String[] args) {
-        // MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY, SUNDAY
-        String day = "MONDAY";
+        // "happy", "angry", "sad", etc.
+        String mood = "ㅇㅇ";
 
-        switch (day) {
-            case "MONDAY":
-            case "TUESDAY":
-            case "WEDNESDAY":
-            case "THURSDAY":
-            case "FRIDAY":
-                System.out.println("평일");
+        switch (mood) {
+            case "happy":
+                System.out.println("나는 행복하다.");
                 break;
-            case "SATURDAY":
-            case "SUNDAY":
-                System.out.println("주말");
+            case "angry":
+                System.out.println("나는 화가난다.");
                 break;
-        }
+            case "sad":
+                System.out.println("나는 슬프다.");
+                break;
+            default:
+                System.out.println("나도 모르겠다.");
         }
     }
 }

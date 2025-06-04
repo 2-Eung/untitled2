@@ -1,20 +1,30 @@
 public class Main {
     public static void main(String[] args) {
-        // "happy", "angry", "sad", etc.
-        String mood = "ㅇㅇ";
 
-        switch (mood) {
-            case "happy":
-                System.out.println("나는 행복하다.");
+        String day = "월";
+
+        switch (day) {
+            case "월" :
+                System.out.println(day);
                 break;
-            case "angry":
-                System.out.println("나는 화가난다.");
+            case "화" :
+                System.out.println(day);
                 break;
-            case "sad":
-                System.out.println("나는 슬프다.");
+            case "수" :
+                System.out.println(day);
                 break;
-            default:
-                System.out.println("나도 모르겠다.");
+            default :
+                System.out.println("목, 금, 토, 일 or 잘못입력");
+        }
+
+        if (day == "월") {
+            System.out.println(day);
+        } else if (day == "화") {
+            System.out.println(day);
+        } else if (day == "화") {
+            System.out.println(day);
+        } else {
+            System.out.println("목, 금, 토, 일 or 잘못입력");
         }
     }
 }
